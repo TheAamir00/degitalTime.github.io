@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIme</title>
+    <style>
+        body {
+            display: grid;
+            place-content: center;
+            height: 100vh;
+            background: #000;
+        }
+
+        .clock {
+            font-size: 100px;
+            color: #b517fe;
+            /* background: linear-gradient(pink,red); */
+            font-family: Orbitron, "arial";
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="clock" id="time" onload="showtimes()">
+            00 : 00 : 00 : 00
+        </div>
+    </div>
+
+
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
